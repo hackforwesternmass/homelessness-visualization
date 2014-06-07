@@ -1,0 +1,27 @@
+{
+  "name": "HomlessnessVisualizer",
+  "version": "0.0.1",
+  "author": "Hack4MA",
+  "homepage": "http://westernmasshousingfirst.org",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:hackforwesternmass/homelessness-visualization.git"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-jshint": "~0.6.4",
+    "grunt-contrib-uglify": "~0.2.4",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-contrib-compass": "~0.6.0",
+    "grunt-contrib-imagemin": "~0.3.0"
+  }
+}
