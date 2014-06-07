@@ -23,6 +23,7 @@ module.exports = function(grunt) {
       dist: {
         files: {
             'assets/js/homelessness-vis.min.js': [
+            	'assets/js/homelessness-vis.js'
             ]
         },
         options: {
@@ -48,6 +49,7 @@ module.exports = function(grunt) {
     watch: {
       sass: {
         files: [
+        	'assets/sass/*.scss'
         ],
         tasks: ['compass']
       },
@@ -72,14 +74,12 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-compass');
   grunt.loadNpmTasks('grunt-contrib-imagemin');
-  grunt.loadNpmTasks('grunt-pixrem');
 
   // Register tasks
   grunt.registerTask('default', [
     'compass',
     'imagemin',
-    'uglify',
-    'pixrem'
+    'uglify'
   ]);
 
   grunt.registerTask('dev', [
