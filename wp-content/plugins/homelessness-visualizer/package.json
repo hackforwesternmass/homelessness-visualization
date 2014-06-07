@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "author": "Hack4MA",
   "homepage": "http://westernmasshousingfirst.org",
+  "description": "Homelessness Visualization",
   "repository": {
     "type": "git",
     "url": "git@github.com:hackforwesternmass/homelessness-visualization.git"
